@@ -6,7 +6,7 @@ const Contact = () => (
   <section id="contact" className="py-20 px-4">
     <div className="max-w-2xl mx-auto text-center">
       <ScrollReveal>
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent border text-sm text-accent-foreground mb-6">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink/10 border border-pink/20 text-sm text-pink mb-6">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
           Ready for freelancing or full-time — just contact me!
         </div>
@@ -24,14 +24,14 @@ const Contact = () => (
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="mailto:mayuthackrey@gmail.com?subject=Hii"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-pink text-white font-medium hover:bg-pink-dark transition-colors"
           >
             <Mail size={18} /> Email Me
           </a>
           <a
             href="/Mayuri_Thackrey_Resume.docx"
             download
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-accent transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-navy-light text-navy-light dark:text-sky dark:border-sky font-medium hover:bg-navy/10 dark:hover:bg-sky/10 transition-colors"
           >
             <Download size={18} /> Download Resume
           </a>

@@ -8,7 +8,9 @@ const Skills = () => (
   <section id="skills" className="py-20 px-4">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 gradient-text inline-block">Skills & Certifications</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+          Skills & Certifications
+        </h2>
       </ScrollReveal>
 
       <div className="grid md:grid-cols-2 gap-10">
@@ -16,7 +18,7 @@ const Skills = () => (
           <h3 className="text-xl font-semibold mb-4">Core Skills</h3>
           <div className="flex flex-wrap gap-3">
             {skills.map((s) => (
-              <span key={s} className="px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium border">
+              <span key={s} className="px-4 py-2 rounded-full bg-pink/10 text-pink dark:bg-pink/15 text-sm font-medium border border-pink/20">
                 {s}
               </span>
             ))}
@@ -28,7 +30,7 @@ const Skills = () => (
           <div className="space-y-3">
             {certs.map((c) => (
               <div key={c} className="flex items-center gap-3 p-3 rounded-lg bg-card border">
-                <div className="w-2 h-2 rounded-full bg-primary shrink-0" />
+                <div className="w-2 h-2 rounded-full bg-sky shrink-0" />
                 <span className="text-sm text-muted-foreground">{c}</span>
               </div>
             ))}
