@@ -1,16 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+/* Portfolio landing page — assembles all sections */
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
+import Education from "@/components/Education";
+import Contact from "@/components/Contact";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
-
-const Index = PlaceholderIndex;
+const Index = () => (
+  <div className="min-h-screen">
+    <Navbar />
+    <Hero />
+    <About />
+    <Experience />
+    <Skills />
+    <Education />
+    <Contact />
+    <footer className="py-6 text-center text-sm text-muted-foreground border-t">
+      © {new Date().getFullYear()} Mayuri Thackrey. All rights reserved.
+    </footer>
+  </div>
+);
 
 export default Index;
