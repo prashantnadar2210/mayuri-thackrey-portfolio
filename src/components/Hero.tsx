@@ -1,4 +1,4 @@
-/* Hero section with avatar, tagline & CTA */
+/* Hero section — avatar, tagline & CTA */
 import { motion } from "framer-motion";
 import { Download, Mail } from "lucide-react";
 import avatar from "@/assets/avatar.png";
@@ -6,6 +6,7 @@ import avatar from "@/assets/avatar.png";
 const Hero = () => (
   <section id="hero" className="min-h-screen flex items-center justify-center px-4 pt-16">
     <div className="max-w-4xl mx-auto text-center">
+      {/* Avatar with pink glow */}
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -17,17 +18,21 @@ const Hero = () => (
           alt="Mayuri Thackrey"
           width={180}
           height={180}
-          className="mx-auto rounded-full border-4 border-primary/30 glow-shadow"
+          className="mx-auto rounded-full border-4 border-pink/30 shadow-[0_0_40px_hsl(330_80%_60%/0.2)]"
         />
       </motion.div>
 
+      {/* Name with gradient */}
       <motion.h1
         initial={{ y: 30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4"
       >
-        Hi, I'm <span className="gradient-text">Mayuri Thackrey</span>
+        Hi, I'm{" "}
+        <span className="bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent">
+          Mayuri Thackrey
+        </span>
       </motion.h1>
 
       <motion.p
@@ -39,6 +44,7 @@ const Hero = () => (
         Software Implementation Engineer — turning complex systems into seamless client experiences.
       </motion.p>
 
+      {/* CTA buttons */}
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -47,14 +53,14 @@ const Hero = () => (
       >
         <a
           href="mailto:mayuthackrey@gmail.com?subject=Hey"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-pink text-white font-medium hover:bg-pink-dark transition-colors"
         >
           <Mail size={18} /> Get in Touch
         </a>
         <a
           href="/Mayuri_Thackrey_Resume.docx"
           download
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-accent transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-pink text-pink font-medium hover:bg-pink/10 transition-colors"
         >
           <Download size={18} /> Download Resume
         </a>

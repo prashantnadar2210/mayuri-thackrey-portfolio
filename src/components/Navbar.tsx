@@ -16,21 +16,24 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <span className="text-xl font-bold gradient-text cursor-pointer" onClick={() => scroll("hero")}>
+        <span
+          className="text-xl font-bold bg-gradient-to-r from-pink to-sky bg-clip-text text-transparent cursor-pointer"
+          onClick={() => scroll("hero")}
+        >
           MT
         </span>
 
-        {/* Desktop */}
+        {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((l) => (
-            <button key={l} onClick={() => scroll(l)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <button key={l} onClick={() => scroll(l)} className="text-sm text-muted-foreground hover:text-pink transition-colors">
               {l}
             </button>
           ))}
           <ThemeToggle />
         </div>
 
-        {/* Mobile */}
+        {/* Mobile toggle */}
         <div className="flex md:hidden items-center gap-2">
           <ThemeToggle />
           <button onClick={() => setOpen(!open)} className="p-2 text-foreground">
@@ -39,10 +42,11 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t bg-background/95 backdrop-blur-md">
           {links.map((l) => (
-            <button key={l} onClick={() => scroll(l)} className="block w-full text-left px-6 py-3 text-sm text-muted-foreground hover:text-primary hover:bg-accent transition-colors">
+            <button key={l} onClick={() => scroll(l)} className="block w-full text-left px-6 py-3 text-sm text-muted-foreground hover:text-pink hover:bg-pink/5 transition-colors">
               {l}
             </button>
           ))}
