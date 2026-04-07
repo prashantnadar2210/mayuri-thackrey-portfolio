@@ -46,7 +46,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8"
         >
-          Software Implementation Engineer — turning complex systems into seamless client experiences.
+          Software Implementation Engineer — ensuring seamless implementations & client success.
         </motion.p>
 
         <motion.div

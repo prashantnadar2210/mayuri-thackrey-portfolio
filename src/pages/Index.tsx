@@ -1,4 +1,4 @@
-/* Portfolio landing — lazy-loaded sections with Helmet SEO */
+/* Portfolio landing — lazy sections, Helmet SEO, hobbies */
 import { lazy, Suspense } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
@@ -10,6 +10,7 @@ const About = lazy(() => import("@/components/About"));
 const Experience = lazy(() => import("@/components/Experience"));
 const Skills = lazy(() => import("@/components/Skills"));
 const Education = lazy(() => import("@/components/Education"));
+const Hobbies = lazy(() => import("@/components/Hobbies"));
 const Contact = lazy(() => import("@/components/Contact"));
 
 const Index = () => (
@@ -29,7 +30,7 @@ const Index = () => (
         jobTitle: "Software Implementation Engineer",
         url: "https://mayurithackrey.lovable.app",
         email: "mayuthackrey@gmail.com",
-        address: { "@type": "PostalAddress", addressLocality: "Mumbai", addressCountry: "IN" },
+        address: { "@type": "PostalAddress", addressLocality: "Mumbai, Goregaon (East)", addressCountry: "IN" },
       })}</script>
     </Helmet>
 
@@ -41,6 +42,7 @@ const Index = () => (
         <Experience />
         <Skills />
         <Education />
+        <Hobbies />
         <Contact />
       </Suspense>
       <footer className="py-6 text-center text-sm text-muted-foreground border-t" role="contentinfo">
