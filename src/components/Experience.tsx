@@ -36,19 +36,19 @@ const jobs = [
 ];
 
 const Experience = () => (
-  <section id="experience" className="py-20 px-4 bg-muted/40">
+  <section id="experience" aria-labelledby="exp-heading" className="py-20 px-4 bg-muted/40">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+        <h2 id="exp-heading" className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
           Experience
         </h2>
       </ScrollReveal>
 
-      <div className="space-y-8">
+      <div className="space-y-8" role="list" aria-label="Work experience">
         {jobs.map((job, i) => (
           <ScrollReveal key={i} delay={i * 0.15}>
-            <div className="relative pl-8 border-l-2 border-pink/30">
-              <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-pink flex items-center justify-center">
+            <article role="listitem" className="relative pl-8 border-l-2 border-pink/30">
+              <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-pink flex items-center justify-center" aria-hidden="true">
                 <Briefcase size={14} className="text-white" />
               </div>
               <div className="bg-card rounded-xl p-6 border">
@@ -57,15 +57,15 @@ const Experience = () => (
                   <span className="text-sm text-pink font-medium">{job.period}</span>
                 </div>
                 <p className="text-muted-foreground text-sm mb-3">{job.company}</p>
-                <ul className="space-y-1">
+                <ul className="space-y-1" aria-label={`Responsibilities at ${job.company}`}>
                   {job.points.map((p, j) => (
                     <li key={j} className="text-sm text-muted-foreground flex gap-2">
-                      <span className="text-sky mt-1">•</span> {p}
+                      <span className="text-sky mt-1" aria-hidden="true">•</span> {p}
                     </li>
                   ))}
                 </ul>
               </div>
-            </div>
+            </article>
           </ScrollReveal>
         ))}
       </div>
