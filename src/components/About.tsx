@@ -1,10 +1,10 @@
-/* About section */
+/* About section — accurate resume data */
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
   { label: "Experience", value: "3+ Years" },
-  { label: "Projects", value: "10+" },
-  { label: "Clients", value: "15+" },
+  { label: "Clients", value: "Multiple" },
+  { label: "Education", value: "MCA (Pursuing)" },
   { label: "Location", value: "Mumbai" },
 ];
 
@@ -18,10 +18,10 @@ const About = () => (
       </ScrollReveal>
       <ScrollReveal delay={0.15}>
         <p className="text-muted-foreground text-lg leading-relaxed">
-          Detail-oriented professional with strong analytical and communication skills.
-          I specialize in ensuring seamless software implementation and smooth go-live processes
-          with end-to-end project coordination, system configuration, and successful client onboarding.
-          Currently pursuing my MCA from Little Flower Institute (Pune University).
+          Detail-oriented professional with strong analytical and communication skills,
+          ensuring seamless software implementation and smooth go-live processes with
+          end-to-end project coordination, system configuration, and successful client onboarding.
+          Currently pursuing MCA from Little Flower Institute, affiliated with Pune University.
         </p>
       </ScrollReveal>
       <ScrollReveal delay={0.25}>

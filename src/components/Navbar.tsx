@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const links = ["About", "Experience", "Skills", "Education", "Contact"];
+const links = ["About", "Experience", "Skills", "Education", "Hobbies", "Contact"];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

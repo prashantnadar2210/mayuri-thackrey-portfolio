@@ -1,12 +1,12 @@
-/* Education timeline */
+/* Education — accurate resume data */
 import ScrollReveal from "./ScrollReveal";
 import { GraduationCap } from "lucide-react";
 
 const edu = [
-  { degree: "MCA", school: "Little Flower Institute, Pune University", year: "2024 – Present" },
-  { degree: "BCA", school: "S.N.D.T. Women's College, Mumbai", year: "2020" },
-  { degree: "H.S.C.", school: "S.N.D.T. Junior Women's College, Mumbai", year: "2017" },
-  { degree: "S.S.C.", school: "Sacred Heart High School, Mumbai", year: "2015" },
+  { degree: "MCA", school: "Little Flower Institute, Pune University", year: "2024 – Present", note: "Currently pursuing" },
+  { degree: "BCA", school: "S.N.D.T. Women's College, Mumbai (S.N.D.T. University)", year: "2020", note: "Completed" },
+  { degree: "H.S.C.", school: "S.N.D.T. Junior Women's College, Mumbai (Maharashtra State Board)", year: "2017", note: "Passed" },
+  { degree: "S.S.C.", school: "Sacred Heart High School, Mumbai (Maharashtra State Board)", year: "2015", note: "Passed" },
 ];
 
 const Education = () => (
@@ -25,7 +25,10 @@ const Education = () => (
               <GraduationCap size={24} className="text-navy-light dark:text-sky mb-3" aria-hidden="true" />
               <h3 className="font-semibold text-lg">{e.degree}</h3>
               <p className="text-sm text-muted-foreground mt-1">{e.school}</p>
-              <p className="text-sm text-pink font-medium mt-2">{e.year}</p>
+              <div className="flex items-center gap-2 mt-2">
+                <span className="text-sm text-pink font-medium">{e.year}</span>
+                <span className="text-xs text-muted-foreground">— {e.note}</span>
+              </div>
             </article>
           </ScrollReveal>
         ))}

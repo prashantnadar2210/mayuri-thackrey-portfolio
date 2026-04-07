@@ -1,8 +1,8 @@
-/* Skills & certifications grid */
+/* Skills & certifications — accurate resume data */
 import ScrollReveal from "./ScrollReveal";
 
-const skills = ["Communication", "Teamwork", "Project Management", "Time Management", "Strong Coordination", "Client Onboarding"];
-const certs = ["SQL Management Studio", "Computer Software Networking", "MS-CIT (MKCL)", "MS-Office & Internet"];
+const skills = ["Communication", "Teamwork", "Strong Coordination", "Time Management", "Project Management"];
+const certs = ["SQL Management Studio", "Computer Software Networking", "MS-CIT Certification from MKCL", "Computer Basic, MS-Office & Internet"];
 
 const Skills = () => (
   <section id="skills" aria-labelledby="skills-heading" className="py-20 px-4">

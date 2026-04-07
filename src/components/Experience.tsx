@@ -1,4 +1,4 @@
-/* Work experience timeline */
+/* Work experience — accurate resume data */
 import ScrollReveal from "./ScrollReveal";
 import { Briefcase } from "lucide-react";
 
@@ -6,11 +6,13 @@ const jobs = [
   {
     title: "Software Implementation Engineer",
     company: "B'catalyst Pvt. Ltd.",
-    period: "2025 – Present",
+    period: "2025 – 2026",
     points: [
-      "Client training, walkthroughs & technical support",
-      "BRD/SRS creation and meeting documentation",
-      "Cross-team coordination for custom solutions",
+      "Conducted client training and software walkthroughs",
+      "Handled troubleshooting and technical support for system-related issues",
+      "Coordinated with internal teams to customize solutions based on client requirements",
+      "Maintained implementation documentation and reports",
+      "BRD/SRS creation and MOM for meeting discussions",
     ],
   },
   {
@@ -18,9 +20,11 @@ const jobs = [
     company: "Spine Technologies Pvt. Ltd.",
     period: "2023 – 2024",
     points: [
-      "Managed Payroll-HRMS & Asset Management implementations",
-      "Oversaw projects for Holy Spirit Hospital, Vee Tee, Le Sutra",
-      "Bridge between technical team and clients",
+      "Supported both Payroll-HRMS and Asset Management software during project coordination",
+      "Managed project timelines, tasks, and communications across teams and clients",
+      "Oversaw end-to-end implementation for clients like Holy Spirit Hospital, Vee Tee, and Le Sutra",
+      "Prepared client reports, collected feedback, and ensured timely resolution of issues",
+      "Acted as a bridge between technical team and clients during project execution",
     ],
   },
   {
@@ -28,9 +32,11 @@ const jobs = [
     company: "Spine Technologies Pvt. Ltd.",
     period: "2022 – 2023",
     points: [
-      "Installed & configured Asset Management software",
-      "Conducted client training and troubleshooting",
-      "Maintained implementation documentation",
+      "Installed, configured, and supported Asset Management software",
+      "Conducted client training and software walkthroughs",
+      "Handled troubleshooting and technical support for system-related issues",
+      "Coordinated with internal teams to customize solutions based on client requirements",
+      "Maintained implementation documentation and reports",
     ],
   },
 ];
