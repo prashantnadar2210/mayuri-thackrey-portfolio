@@ -1,11 +1,18 @@
 /* About section */
 import ScrollReveal from "./ScrollReveal";
 
+const stats = [
+  { label: "Experience", value: "3+ Years" },
+  { label: "Projects", value: "10+" },
+  { label: "Clients", value: "15+" },
+  { label: "Location", value: "Mumbai" },
+];
+
 const About = () => (
-  <section id="about" className="py-20 px-4">
+  <section id="about" aria-labelledby="about-heading" className="py-20 px-4">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+        <h2 id="about-heading" className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
           About Me
         </h2>
       </ScrollReveal>
@@ -18,14 +25,9 @@ const About = () => (
         </p>
       </ScrollReveal>
       <ScrollReveal delay={0.25}>
-        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { label: "Experience", value: "3+ Years" },
-            { label: "Projects", value: "10+" },
-            { label: "Clients", value: "15+" },
-            { label: "Location", value: "Mumbai" },
-          ].map((s) => (
-            <div key={s.label} className="p-4 rounded-xl bg-card border text-center">
+        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4" role="list" aria-label="Key statistics">
+          {stats.map((s) => (
+            <div key={s.label} role="listitem" className="p-4 rounded-xl bg-card border text-center">
               <p className="text-2xl font-bold text-pink">{s.value}</p>
               <p className="text-sm text-muted-foreground mt-1">{s.label}</p>
             </div>
