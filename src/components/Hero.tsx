@@ -55,7 +55,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <a
-            href="mailto:mayuthackrey@gmail.com?subject=Hey"
+            href="mailto:mayuthackrey@gmail.com"
             aria-label="Send email to Mayuri"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >

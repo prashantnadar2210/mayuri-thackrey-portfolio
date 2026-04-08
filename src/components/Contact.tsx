@@ -23,7 +23,7 @@ const Contact = () => (
       <ScrollReveal delay={0.2}>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4" role="group" aria-label="Contact options">
           <a
-            href="mailto:mayuthackrey@gmail.com?subject=Hii"
+            href="mailto:mayuthackrey@gmail.com"
             aria-label="Send email to Mayuri"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >
