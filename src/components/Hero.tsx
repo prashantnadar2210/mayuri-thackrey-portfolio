@@ -23,7 +23,7 @@ const Hero = () => {
     <section id="hero" aria-label="Introduction" className="min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="max-w-4xl mx-auto text-center">
         <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6 }} className="mb-8">
-          <img src={avatar} alt="Portrait of Mayuri Thackrey" width={180} height={180} loading="eager" className="mx-auto rounded-full border-4 border-pink/30 shadow-[0_0_40px_hsl(330_80%_60%/0.2)]" />
+          <img src={avatar} alt="Portrait of Mayuri Thackrey" width={180} height={180} loading="eager" className="mx-auto rounded-full border-4 border-sky/30 shadow-[0_0_40px_hsl(197_70%_55%/0.25)]" />
         </motion.div>
 
         <motion.h1
