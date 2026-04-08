@@ -44,7 +44,7 @@ const Contact = () => (
             aria-label="Visit Mayuri's LinkedIn profile"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-sky text-sky font-medium hover:bg-sky/10 transition-colors"
           >
-            <LinkedinIcon size={18} aria-hidden="true" /> LinkedIn
+            <Link size={18} aria-hidden="true" /> LinkedIn
           </a>
         </div>
       </ScrollReveal>
