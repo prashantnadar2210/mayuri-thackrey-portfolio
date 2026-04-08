@@ -37,6 +37,15 @@ const Contact = () => (
           >
             <Download size={18} aria-hidden="true" /> Download Resume
           </a>
+          <a
+            href="https://www.linkedin.com/in/mayurithackrey"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Mayuri's LinkedIn profile"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-sky text-sky font-medium hover:bg-sky/10 transition-colors"
+          >
+            <Linkedin size={18} aria-hidden="true" /> LinkedIn
+          </a>
         </div>
       </ScrollReveal>
     </div>
