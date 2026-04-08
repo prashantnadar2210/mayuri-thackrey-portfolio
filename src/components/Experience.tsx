@@ -53,8 +53,8 @@ const Experience = () => (
       <div className="space-y-8" role="list" aria-label="Work experience">
         {jobs.map((job, i) => (
           <ScrollReveal key={i} delay={i * 0.15}>
-            <article role="listitem" className="relative pl-8 border-l-2 border-pink/30">
-              <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-pink flex items-center justify-center" aria-hidden="true">
+            <article role="listitem" className="relative pl-8 border-l-2 border-sky/30">
+              <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-navy flex items-center justify-center" aria-hidden="true">
                 <Briefcase size={14} className="text-white" />
               </div>
               <div className="bg-card rounded-xl p-6 border">
