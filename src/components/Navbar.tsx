@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6" role="menubar">
           {links.map((l) => (
-            <button key={l} onClick={() => scroll(l)} role="menuitem" className="text-sm text-muted-foreground hover:text-pink transition-colors">
+            <button key={l} onClick={() => scroll(l)} role="menuitem" className="text-sm text-muted-foreground hover:text-sky transition-colors">
               {l}
             </button>
           ))}
