@@ -6,7 +6,7 @@ const Contact = () => (
   <section id="contact" aria-labelledby="contact-heading" className="py-20 px-4">
     <div className="max-w-2xl mx-auto text-center">
       <ScrollReveal>
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink/10 border border-pink/20 text-sm text-pink mb-6" role="status">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky/10 border border-sky/20 text-sm text-sky mb-6" role="status">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" aria-hidden="true" />
           Ready for freelancing or full-time — just contact me!
         </div>
