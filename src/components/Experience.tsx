@@ -45,7 +45,7 @@ const Experience = () => (
   <section id="experience" aria-labelledby="exp-heading" className="py-20 px-4 bg-muted/40">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 id="exp-heading" className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+        <h2 id="exp-heading" className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-navy-light via-sky to-pink bg-clip-text text-transparent inline-block">
           Experience
         </h2>
       </ScrollReveal>
