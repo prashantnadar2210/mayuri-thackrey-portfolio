@@ -36,7 +36,7 @@ const Contact = () => (
             aria-label="Follow Mayuri on Instagram"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-pink to-pink-dark text-white font-medium hover:opacity-90 transition-opacity"
           >
-            <Instagram size={18} aria-hidden="true" /> Follow Me
+            <Camera size={18} aria-hidden="true" /> Follow Me
           </a>
           <a
             href="/Mayuri_Thackrey_Resume.docx"
