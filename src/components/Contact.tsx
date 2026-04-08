@@ -1,6 +1,6 @@
 /* Contact CTA with availability badge */
 import ScrollReveal from "./ScrollReveal";
-import { Mail, Download, Clock, Link } from "lucide-react";
+import { Mail, Download, Clock, Link, Camera } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" aria-labelledby="contact-heading" className="py-20 px-4">
@@ -21,13 +21,22 @@ const Contact = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.2}>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4" role="group" aria-label="Contact options">
+        <div className="flex flex-wrap items-center justify-center gap-4" role="group" aria-label="Contact options">
           <a
             href="mailto:mayuthackrey@gmail.com"
             aria-label="Send email to Mayuri"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >
             <Mail size={18} aria-hidden="true" /> Email Me
+          </a>
+          <a
+            href="https://www.instagram.com/myu_thackrey"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Mayuri on Instagram"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-pink to-pink-dark text-white font-medium hover:opacity-90 transition-opacity"
+          >
+            <Camera size={18} aria-hidden="true" /> Follow Me
           </a>
           <a
             href="/Mayuri_Thackrey_Resume.docx"
