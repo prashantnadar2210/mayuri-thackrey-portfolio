@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6" role="menubar">
           {links.map((l) => (
-            <button key={l} onClick={() => scroll(l)} role="menuitem" className="text-sm text-muted-foreground hover:text-pink transition-colors">
+            <button key={l} onClick={() => scroll(l)} role="menuitem" className="text-sm text-muted-foreground hover:text-sky transition-colors">
               {l}
             </button>
           ))}
@@ -47,7 +47,7 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden border-t bg-background/95 backdrop-blur-md" role="menu">
           {links.map((l) => (
-            <button key={l} onClick={() => scroll(l)} role="menuitem" className="block w-full text-left px-6 py-3 text-sm text-muted-foreground hover:text-pink hover:bg-pink/5 transition-colors">
+            <button key={l} onClick={() => scroll(l)} role="menuitem" className="block w-full text-left px-6 py-3 text-sm text-muted-foreground hover:text-sky hover:bg-sky/5 transition-colors">
               {l}
             </button>
           ))}

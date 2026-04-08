@@ -8,7 +8,7 @@ const Skills = () => (
   <section id="skills" aria-labelledby="skills-heading" className="py-20 px-4">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 id="skills-heading" className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+        <h2 id="skills-heading" className="text-3xl md:text-4xl font-bold mb-10 bg-gradient-to-r from-navy-light via-sky to-pink bg-clip-text text-transparent inline-block">
           Skills & Certifications
         </h2>
       </ScrollReveal>
@@ -18,7 +18,7 @@ const Skills = () => (
           <h3 className="text-xl font-semibold mb-4">Core Skills</h3>
           <div className="flex flex-wrap gap-3" role="list" aria-label="Core skills">
             {skills.map((s) => (
-              <span key={s} role="listitem" className="px-4 py-2 rounded-full bg-pink/10 text-pink dark:bg-pink/15 text-sm font-medium border border-pink/20">
+              <span key={s} role="listitem" className="px-4 py-2 rounded-full bg-navy/10 text-navy-light dark:bg-sky/15 dark:text-sky text-sm font-medium border border-navy/20 dark:border-sky/20">
                 {s}
               </span>
             ))}

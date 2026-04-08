@@ -23,7 +23,7 @@ const Hero = () => {
     <section id="hero" aria-label="Introduction" className="min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="max-w-4xl mx-auto text-center">
         <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6 }} className="mb-8">
-          <img src={avatar} alt="Portrait of Mayuri Thackrey" width={180} height={180} loading="eager" className="mx-auto rounded-full border-4 border-pink/30 shadow-[0_0_40px_hsl(330_80%_60%/0.2)]" />
+          <img src={avatar} alt="Portrait of Mayuri Thackrey" width={180} height={180} loading="eager" className="mx-auto rounded-full border-4 border-sky/30 shadow-[0_0_40px_hsl(197_70%_55%/0.25)]" />
         </motion.div>
 
         <motion.h1
@@ -34,9 +34,9 @@ const Hero = () => {
           aria-label={`Hi, I'm ${fullName}`}
         >
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-navy-light via-sky to-pink bg-clip-text text-transparent">
             {name}
-            {!done && <span className="inline-block w-0.5 h-8 md:h-12 bg-pink ml-0.5 animate-pulse align-middle" aria-hidden="true" />}
+            {!done && <span className="inline-block w-0.5 h-8 md:h-12 bg-sky ml-0.5 animate-pulse align-middle" aria-hidden="true" />}
           </span>
         </motion.h1>
 
@@ -57,7 +57,7 @@ const Hero = () => {
           <a
             href="mailto:mayuthackrey@gmail.com?subject=Hey"
             aria-label="Send email to Mayuri"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-pink text-white font-medium hover:bg-pink-dark transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >
             <Mail size={18} aria-hidden="true" /> Get in Touch
           </a>

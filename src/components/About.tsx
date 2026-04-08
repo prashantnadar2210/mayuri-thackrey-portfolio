@@ -12,7 +12,7 @@ const About = () => (
   <section id="about" aria-labelledby="about-heading" className="py-20 px-4">
     <div className="max-w-4xl mx-auto">
       <ScrollReveal>
-        <h2 id="about-heading" className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent inline-block">
+        <h2 id="about-heading" className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-navy-light via-sky to-pink bg-clip-text text-transparent inline-block">
           About Me
         </h2>
       </ScrollReveal>
@@ -28,7 +28,7 @@ const About = () => (
         <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4" role="list" aria-label="Key statistics">
           {stats.map((s) => (
             <div key={s.label} role="listitem" className="p-4 rounded-xl bg-card border text-center">
-              <p className="text-2xl font-bold text-pink">{s.value}</p>
+              <p className="text-2xl font-bold text-navy-light dark:text-sky">{s.value}</p>
               <p className="text-sm text-muted-foreground mt-1">{s.label}</p>
             </div>
           ))}
