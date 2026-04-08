@@ -1,6 +1,6 @@
 /* Contact CTA with availability badge */
 import ScrollReveal from "./ScrollReveal";
-import { Mail, Download, Clock } from "lucide-react";
+import { Mail, Download, Clock, Link } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" aria-labelledby="contact-heading" className="py-20 px-4">
@@ -36,6 +36,15 @@ const Contact = () => (
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-navy-light text-navy-light dark:text-sky dark:border-sky font-medium hover:bg-navy/10 dark:hover:bg-sky/10 transition-colors"
           >
             <Download size={18} aria-hidden="true" /> Download Resume
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mayurithackrey"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Mayuri's LinkedIn profile"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-sky text-sky font-medium hover:bg-sky/10 transition-colors"
+          >
+            <Link size={18} aria-hidden="true" /> LinkedIn
           </a>
         </div>
       </ScrollReveal>
