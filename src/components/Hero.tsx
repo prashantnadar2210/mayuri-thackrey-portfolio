@@ -34,9 +34,9 @@ const Hero = () => {
           aria-label={`Hi, I'm ${fullName}`}
         >
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-pink via-navy-light to-sky bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-navy-light via-sky to-pink bg-clip-text text-transparent">
             {name}
-            {!done && <span className="inline-block w-0.5 h-8 md:h-12 bg-pink ml-0.5 animate-pulse align-middle" aria-hidden="true" />}
+            {!done && <span className="inline-block w-0.5 h-8 md:h-12 bg-sky ml-0.5 animate-pulse align-middle" aria-hidden="true" />}
           </span>
         </motion.h1>
 
