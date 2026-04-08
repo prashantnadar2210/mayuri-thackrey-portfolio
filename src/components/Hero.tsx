@@ -57,7 +57,7 @@ const Hero = () => {
           <a
             href="mailto:mayuthackrey@gmail.com?subject=Hey"
             aria-label="Send email to Mayuri"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-pink text-white font-medium hover:bg-pink-dark transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >
             <Mail size={18} aria-hidden="true" /> Get in Touch
           </a>

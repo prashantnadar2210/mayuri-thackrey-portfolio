@@ -26,7 +26,7 @@ const Education = () => (
               <h3 className="font-semibold text-lg">{e.degree}</h3>
               <p className="text-sm text-muted-foreground mt-1">{e.school}</p>
               <div className="flex items-center gap-2 mt-2">
-                <span className="text-sm text-pink font-medium">{e.year}</span>
+                <span className="text-sm text-sky font-medium">{e.year}</span>
                 <span className="text-xs text-muted-foreground">— {e.note}</span>
               </div>
             </article>

@@ -28,7 +28,7 @@ const About = () => (
         <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4" role="list" aria-label="Key statistics">
           {stats.map((s) => (
             <div key={s.label} role="listitem" className="p-4 rounded-xl bg-card border text-center">
-              <p className="text-2xl font-bold text-pink">{s.value}</p>
+              <p className="text-2xl font-bold text-navy-light dark:text-sky">{s.value}</p>
               <p className="text-sm text-muted-foreground mt-1">{s.label}</p>
             </div>
           ))}

@@ -60,7 +60,7 @@ const Experience = () => (
               <div className="bg-card rounded-xl p-6 border">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                   <h3 className="text-lg font-semibold">{job.title}</h3>
-                  <span className="text-sm text-pink font-medium">{job.period}</span>
+                  <span className="text-sm text-sky font-medium">{job.period}</span>
                 </div>
                 <p className="text-muted-foreground text-sm mb-3">{job.company}</p>
                 <ul className="space-y-1" aria-label={`Responsibilities at ${job.company}`}>
