@@ -1,6 +1,6 @@
 /* Contact CTA with availability badge */
 import ScrollReveal from "./ScrollReveal";
-import { Mail, Download, Clock, Linkedin } from "lucide-react";
+import { Mail, Download, Clock, LinkedinIcon } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" aria-labelledby="contact-heading" className="py-20 px-4">
