@@ -55,7 +55,7 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <a
-            href="mailto:mayuthackrey@gmail.com"
+            href="mailto:mayuthackrey@gmail.com?subject=Let's%20Collaborate%20%E2%80%94%20Project%20Opportunity&body=Hi%20Mayuri%2C%20I%20came%20across%20your%20portfolio%20and%20I'm%20impressed%20by%20your%20experience.%20I'd%20love%20to%20discuss%20a%20potential%20opportunity.%20Looking%20forward%20to%20hearing%20from%20you!"
             aria-label="Send email to Mayuri"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-navy text-white font-medium hover:bg-navy-dark transition-colors"
           >
