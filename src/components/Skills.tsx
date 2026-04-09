@@ -14,7 +14,7 @@ const Skills = () => (
       </ScrollReveal>
 
       <div className="grid md:grid-cols-2 gap-10">
-        <ScrollReveal delay={0.1}>
+        <ScrollReveal delay={0.2}>
           <h3 className="text-xl font-semibold mb-4">Core Skills</h3>
           <div className="flex flex-wrap gap-3" role="list" aria-label="Core skills">
             {skills.map((s) => (

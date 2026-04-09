@@ -19,7 +19,7 @@ const Hobbies = () => (
         </h2>
       </ScrollReveal>
 
-      <ScrollReveal delay={0.1}>
+      <ScrollReveal delay={0.2}>
         <div className="flex flex-wrap gap-4 justify-center" role="list" aria-label="Hobbies">
           {hobbies.map((h) => (
             <div key={h.name} role="listitem" className="flex items-center gap-3 px-5 py-3 rounded-xl bg-card border hover:shadow-[0_0_20px_hsl(197_70%_55%/0.15)] transition-shadow duration-300">
