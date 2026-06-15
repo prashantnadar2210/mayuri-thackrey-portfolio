@@ -5,14 +5,14 @@ import { Briefcase } from "lucide-react";
 const jobs = [
   {
     title: "Software Implementation Engineer",
-    company: "B'catalyst Pvt. Ltd.",
-    period: "2025 – 2026",
+    company: "Bcatalyst Solutions and Services Pvt. Ltd.",
+    period: "August 2025 – Present",
     points: [
-      "Conducted client training and software walkthroughs",
-      "Handled troubleshooting and technical support for system-related issues",
-      "Coordinated with internal teams to customize solutions based on client requirements",
-      "Maintained implementation documentation and reports",
-      "BRD/SRS creation and MOM for meeting discussions",
+      "Supported both Payroll-HRMS and Asset Management software during project coordination",
+      "Managed project timelines, tasks, and communications across teams and clients",
+      "Oversaw end-to-end implementation for clients: Marwadi Chandarana Group (MCG), Forbes and Company Limited, Adnet, and Doyen",
+      "Prepared client reports, collected feedback, and ensured timely resolution of issues",
+      "Acted as a bridge between the technical team and clients during project execution",
     ],
   },
   {

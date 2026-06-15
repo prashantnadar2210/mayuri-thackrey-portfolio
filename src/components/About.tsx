@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 const stats = [
   { label: "Experience", value: "3+ Years" },
   { label: "Clients", value: "Multiple" },
-  { label: "Education", value: "MCA (Pursuing)" },
+  { label: "Education", value: "MCA" },
   { label: "Location", value: "Mumbai" },
 ];
 
@@ -21,7 +21,7 @@ const About = () => (
           Detail-oriented professional with strong analytical and communication skills,
           ensuring seamless software implementation and smooth go-live processes with
           end-to-end project coordination, system configuration, and successful client onboarding.
-          Currently pursuing MCA from Little Flower Institute, affiliated with Pune University.
+          Master of Computer Applications (MCA), Little Flower Institute (Affiliated with Pune University)
         </p>
       </ScrollReveal>
       <ScrollReveal delay={0.25}>

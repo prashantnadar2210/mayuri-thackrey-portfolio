@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 import { GraduationCap } from "lucide-react";
 
 const edu = [
-  { degree: "MCA", school: "Little Flower Institute, Pune University", year: "2024 – Present", note: "Currently pursuing" },
+  { degree: "MCA", school: "Little Flower Institute, Pune University", year: "2024 – 2026", note: "Completed" },
   { degree: "BCA", school: "S.N.D.T. Women's College, Mumbai (S.N.D.T. University)", year: "2020", note: "Completed" },
   { degree: "H.S.C.", school: "S.N.D.T. Junior Women's College, Mumbai (Maharashtra State Board)", year: "2017", note: "Passed" },
   { degree: "S.S.C.", school: "Sacred Heart High School, Mumbai (Maharashtra State Board)", year: "2015", note: "Passed" },
